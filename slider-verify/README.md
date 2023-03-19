@@ -1,5 +1,8 @@
 # slider-verify
 
+## description
+会话滑块验证容器
+
 ## Project setup
 ```
 yarn install

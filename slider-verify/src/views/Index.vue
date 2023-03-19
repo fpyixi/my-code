@@ -1,6 +1,6 @@
 <template>
   <div class="index">
-    <SliderVerify></SliderVerify>
+    <SliderVerify class="slider-verify"></SliderVerify>
   </div>
 </template>
 
@@ -13,6 +13,12 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+.index {
+  .slider-verify {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+  }
+}
 </style>
